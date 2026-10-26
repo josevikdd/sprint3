@@ -54,8 +54,8 @@
         android:text="@string/description"
         android:textColor="@color/white"
         android:textStyle="italic"
-        android:layout_marginTop="120dp"
         android:textSize="24sp"
+        android:background="@drawable/description"
         app:layout_constraintTop_toBottomOf="@+id/subtitle"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
