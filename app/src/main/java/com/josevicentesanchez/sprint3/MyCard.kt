@@ -18,7 +18,7 @@ class MyCard @JvmOverloads constructor(
         true
     )
 
-    var nombre: String
+    var name: String
         get() = binding.name.text.toString()
         set(value) {
             binding.name.text = value
