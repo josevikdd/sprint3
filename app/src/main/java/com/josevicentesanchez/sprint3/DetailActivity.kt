@@ -26,7 +26,7 @@ class DetailActivity : AppCompatActivity() {
                 this,
                 "Has votado!",
                 Toast.LENGTH_LONG
-            )
+            ).show()
         }
     }
 }
