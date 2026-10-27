@@ -17,4 +17,37 @@ class MyCard @JvmOverloads constructor(
         this,
         true
     )
+
+    var nombre: String
+        get() = binding.name.text.toString()
+        set(value) {
+            binding.name.text = value
+        }
+
+    var surname: String
+        get() = binding.surname.text.toString()
+        set(value) {
+            binding.surname.text = value
+        }
+
+    var textVote: String
+        get() = binding.vote.text.toString()
+        set(value) {
+            binding.vote.text = value
+        }
+
+    fun setOnAccionClickListener(listener: () -> Unit) {
+
+        binding.vote.setOnClickListener {
+            listener()
+        }
+    }
+
+    fun setProfileImage(profileImg: Int) {
+        binding.profile.setImageResource(profileImg)
+    }
+
+    fun setBodyImage(bodyImg: Int) {
+        binding.picture.setImageResource(bodyImg)
+    }
 }

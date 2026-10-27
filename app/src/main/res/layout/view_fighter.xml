@@ -45,12 +45,12 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
-        android:id="@+id/social"
+        android:id="@+id/vote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="120dp"
-        android:text="Perfil del luchador"
+        android:text="Vota al luchador"
         app:layout_constraintTop_toBottomOf="@+id/picture"
         app:layout_constraintLeft_toLeftOf="parent" />
 
